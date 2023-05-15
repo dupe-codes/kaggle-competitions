@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "kaggle-competitions"
+version = "0.1.0"
+description = "Python environment for Kaggle competitions"
+authors = ["dupe <njdupp@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.10.10"
+requests = "^2.30.0"
+conda-lock = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
