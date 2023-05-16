@@ -7,4 +7,5 @@ dependencies:
   - poetry=1.4.*
   - mamba
   - conda-lock
-
+  - ipykernel
+  - nb_conda_kernels
