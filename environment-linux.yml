@@ -3,8 +3,10 @@ channels:
   - conda-forge
   - defaults
   - pytorch
+platforms:
+  - linux-64
 dependencies:
-  - python=3.10.*
+  - python=3.10.10
   - poetry=1.4.*
   - mamba
   - conda-lock
@@ -15,8 +17,7 @@ dependencies:
   # Manage these through conda as it's officially recommended by PyTorch, and
   # installing through Poetry looks like a pain
   # Note the versions are selected for use with Cuda ver. 11.4
-  - pytorch=1.12.*
-  - torchvision=0.13.*
-  - torchaudio=0.12.*
-  - cudatoolkit=11.3.*
-
+  - pytorch=1.12.1
+  - torchvision=0.13.1
+  - torchaudio=0.12.1
+  - cudatoolkit=11.3

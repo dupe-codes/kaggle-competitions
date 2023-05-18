@@ -1,14 +1,14 @@
 [tool.poetry]
 name = "kaggle-competitions"
 version = "0.1.0"
-description = "Python environment for Kaggle competitions"
-authors = ["dupe <njdupp@gmail.com>"]
+description = "Python development environment for ML/DL Kaggle competitions"
+authors = ["dupe <njdupe@gmail.com>"]
 readme = "README.md"
+packages = [{include = "kaggle_competitions"}]
 
 [tool.poetry.dependencies]
-python = "~3.10.10"
-requests = "^2.30.0"
-conda-lock = "^1.4.0"
+python = "3.10.10"
+numpy = "^1.24.3"
 
 
 [build-system]

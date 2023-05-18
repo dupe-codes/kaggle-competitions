@@ -1,0 +1,15 @@
+name: kaggle-competitions
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+platforms:
+  - osx-64
+dependencies:
+  - python=3.10.10
+  - poetry=1.4.*
+  - mamba
+  - conda-lock
+  - ipykernel
+  - nb_conda_kernels
+
