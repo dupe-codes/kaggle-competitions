@@ -4,7 +4,6 @@ version = "0.1.0"
 description = "Python development environment for ML/DL Kaggle competitions"
 authors = ["dupe <njdupe@gmail.com>"]
 readme = "README.md"
-packages = [{include = "kaggle_competitions"}]
 
 [tool.poetry.dependencies]
 python = "3.10.10"
