@@ -11,6 +11,7 @@ dependencies:
   - nb_conda_kernels
   - jupyter
   - jupyter_contrib_nbextensions
+  - pre-commit
 
   # PyTorch GPU installs
   # Manage these through conda as it's officially recommended by PyTorch, and
