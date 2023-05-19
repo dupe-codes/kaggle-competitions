@@ -3,15 +3,14 @@ channels:
   - conda-forge
   - defaults
   - pytorch
-platforms:
-  - linux-64
 dependencies:
   - python=3.10.10
   - poetry=1.4.*
   - mamba
-  - conda-lock
   - ipykernel
   - nb_conda_kernels
+  - jupyter
+  - jupyter_contrib_nbextensions
 
   # PyTorch GPU installs
   # Manage these through conda as it's officially recommended by PyTorch, and
@@ -21,3 +20,4 @@ dependencies:
   - torchvision=0.13.1
   - torchaudio=0.12.1
   - cudatoolkit=11.3
+

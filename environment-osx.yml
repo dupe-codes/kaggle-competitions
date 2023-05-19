@@ -9,7 +9,8 @@ dependencies:
   - python=3.10.10
   - poetry=1.4.*
   - mamba
-  - conda-lock
   - ipykernel
   - nb_conda_kernels
+  - jupyter
+  - jupyter_contrib_nbextensions
 
