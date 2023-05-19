@@ -6,8 +6,10 @@ authors = ["dupe <njdupe@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "3.10.10"
+boto3 = "^1.26.137"
+kaggle = "^1.5.13"
 numpy = "^1.24.3"
+python = "3.10.10"
 
 
 [build-system]
