@@ -13,6 +13,6 @@ This repo follows a conda + poetry environment setup following the rough mold of
 
 ### To update an existing environment conda or poetry dependency changes
 
-`conda env update -f {environment-osx.yal | environment-linux.yaml} --prune`
+`mamba env update -f {environment-osx.yal | environment-linux.yaml} --prune`
 `poetry update`
 
