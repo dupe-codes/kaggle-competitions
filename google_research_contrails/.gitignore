@@ -1,0 +1,3 @@
+# Ignore data loaded from s3
+
+data/*
