@@ -1,3 +1,4 @@
+default_stages: [commit] # Needed to avoid duplicate installs on multiple stages
 repos:
   - repo: https://github.com/psf/black
     rev: 23.3.0
@@ -5,3 +6,7 @@ repos:
     - id: black
     - id: black-jupyter
 
+  - repo: https://github.com/njdup/devmoji-precommit
+    rev: v1.3.0
+    hooks:
+    - id: devmoji-precommit
